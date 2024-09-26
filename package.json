@@ -1,0 +1,26 @@
+{
+  "name": "express-router-to-postman",
+  "version": "1.0.0",
+  "description": "Publish all your routes from Express.JS Node Application as collections and endpoints in Postman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postman",
+    "express",
+    "routes",
+    "publish-routes",
+    "endpoints",
+    "apis"
+  ],
+  "author": "Bhushan Nagaraj",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "axios": "^1.7.7",    
+    "express": "^4.21.0",
+    "node-persist": "^4.0.3",
+    "pino": "^9.4.0",
+    "project-name": "^1.0.0"
+  }
+}
